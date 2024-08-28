@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<!-- HOME SECTION STARTS -->
+    <header>
+        <nav>
+            <div class="logo">Aftab portfolio</div>
+            <input type="checkbox" id="click">
+            <label for="click" class="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#skill">Skill</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <img src="img/moon.png" id="dark-mode-toggle" class="moon">
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="firstSection">
+            <div class="leftSection">
+                Welcome to My Portfolio.
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="img/1.png" />
+            </div>
+        </section>
+    <hr />
+
+
+
+
+
+    <!-- ------------------------------------------ABOUT SECTION-------------------------------- -->
+    <div id="about" class="about-me-section">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Hello! I'm Mohd Aftab, a passionate Web Developer. I specialize in HTML,CSS,JS,etc and have worked with VS CODE. My journey has been an exciting adventure, filled with opportunities to grow and learn.</p>
+            </div>
+
+        <h2 id="eduction"><i>Eduction</i></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2018</div>
+                    <div class="timeline-content">
+                        <h4>10<sup>th</sup> Class</h4>
+                        <p>Pass out Secound Devision - 57%</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2020</div>
+                    <div class="timeline-content">
+                        <h4>12<sup>th</sup>Class</h4>
+                        <p>Pass out First Devision - 89%</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2024</div>
+                    <div class="timeline-content">
+                        <h4>BCA(Bachlour Of Computer Application)</h4>
+                        <p>Pass out First Devision</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<hr />
+
+
+
+    <!-- ------------------------------------------PROJECT SHOWCASE------------------------------- -->
+
+    <section id="project" class="project-showcase">
+        <h1>Project Showcase</h1>
+        <div class="filters">
+            <button class="filter-btn" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web Development</button>
+            <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+            <button class="filter-btn" data-filter="design">Design</button>
+        </div>
+        <div class="projects-grid">
+            <!-- Example Project Cards -->
+            <div class="project-card" data-category="web">
+                <div class="project-image" style="background-image: url('img/3.png');"></div>
+                <div class="project-info">
+                    <h3>Web Project 1</h3>
+                    <p>A description of the web project.</p>
+                    <a href="#">clickme</a>
+                </div>
+            </div>
+            <div class="project-card" data-category="mobile">
+                <div class="project-image" style="background-image: url('img/3.png');"></div>
+                <div class="project-info">
+                    <h3>Mobile Project 1</h3>
+                    <p>A description of the mobile app project.</p>
+                    <a href="#">clickme</a>
+                </div>
+            </div>
+            <div class="project-card" data-category="design">
+                <div class="project-image" style="background-image: url('img/3.png');"></div>
+                <div class="project-info">
+                    <h3>Design Project 1</h3>
+                    <p>A description of the design project.</p>
+                    <a href="#">clickme</a>
+                </div>
+            </div>
+        </div>
+    </section>
+<hr /> 
+    
+
+
+
+
+<!-- ---------------------------------------SKILL SECTION------------------------------------------ -->
+
+
+<div id="skill" class="container">
+    <h1>SKILLS</h1>
+    <p class="description">These skills are important for working efficiently with others, solving problems, and leading projects or teams.<br />Examples include communication, empathy, flexibility, leadership, and patience. </p>
+    
+    <div class="progress-bars">
+        <div class="progress-bar">
+            <div class="circle" data-percentage="95">
+                <span>95%</span>
+            </div>
+            <p class="description lanname">HTML,CSS</p>
+            <p class="description">HTML and CSS are two of the primary languages used to build a website's front end. </p>
+        </div>
+
+        <div class="progress-bar">
+            <div class="circle" data-percentage="80">
+                <span>80%</span>
+            </div>
+            <p class="description lanname">JAVASCRIPT</p>
+            <p class="description">JavaScript is a scripting language that allows developers to add interactivity and complexity to web pages.</p>
+        </div>
+
+        <div class="progress-bar">
+            <div class="circle" data-percentage="100">
+                <span>100%</span>
+            </div>
+            <p class="description lanname">GIT,GITHUB</p>
+            <p class="description">GitHub hosts Git repositories and provides developers with tools to ship better code through command line features.</p>
+        </div>
+
+        <div class="progress-bar">
+            <div class="circle" data-percentage="70">
+                <span>70%</span>
+            </div>
+            <p class="description lanname">BOOTSTRAP</p>
+            <p class="description">Bootstrap is an open-source front-end framework that helps developers build responsive websites faster</p>
+        </div>
+        <div class="progress-bar">
+            <div class="circle" data-percentage="30">
+                <span>30%</span>
+            </div>
+            <p class="description lanname">C++</p>
+            <p class="description">C++ (or “C-plus-plus”) is a generic programming language for building software. It's an object-oriented language.</p>
+        </div>
+    </div>
+</div>
+
+<hr/>
+
+
+<!-- -----------------------------------------------------CONTACT SECTION-------------------------------------- -->
+<div id="contact" class="contact-section">
+    <div class="contact-info">
+        <h2>CONTACT US</h2>
+        <p>Social-Media</p>
+        <div class="social-icons">
+            <a href="#">FACEBOOK</a><br/>
+            <a href="#">TWITTER</a><br />
+            <a href="#">LINKEDIN</a><br />
+            <a href="#">INSTAGRAM</a><br />
+        </div>
+    </div>
+    <div class="contact-form">
+        <form action="/php">
+            <div class="form-group">
+                <input type="text" id="first-name" name="first-name" placeholder="First Name" required>&nbsp;&nbsp;
+                <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="Email Address" required>
+            </div>
+            <div class="form-group">
+                <input type="text" id="subject" name="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit">Submit Form</button>
+        </form>
+        <p id="response"></p>
+    </div>
+</div>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
